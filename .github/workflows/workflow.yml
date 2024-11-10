@@ -2,10 +2,10 @@ name: CI workflow
 on:
   push:
     branches:
-      - main  
+      - main  # Corrected branch specification
   pull_request:
     branches:
-      - main 
+      - main  # Corrected branch specification
 jobs:
   build:
     runs-on: ubuntu-latest
